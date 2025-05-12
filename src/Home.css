@@ -1,0 +1,45 @@
+/* General container styles */
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 20px;
+  }
+  
+  /* Styling for the main heading */
+  .main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6600;  /* Orange color */
+    padding: 20px;
+    background-color: #fff4e6; /* Light orange background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  /* Centering the button on the page */
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Button styling */
+  .view-team-btn {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-team-btn:hover {
+    background-color: #0056b3;
+  }
+  

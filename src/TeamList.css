@@ -1,0 +1,62 @@
+/* General Styles */
+.team-list-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .team-list-container h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Flexbox container to arrange team cards */
+  .team-cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Style for individual team cards */
+  .team-card {
+    width: 240px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Window-like design for each team member card */
+  .team-card-window {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hover effect for the team card */
+  .team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling the profile picture */
+  .team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #007BFF;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling the member name */
+  .team-name {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
